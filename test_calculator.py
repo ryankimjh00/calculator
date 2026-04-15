@@ -42,7 +42,7 @@ class TestDivide:
         assert divide(10, 2) == 5.0
 
     def test_divide_float_result(self):
-        assert divide(7, 2) == 3.5
+        assert divide(7, 4) == 1.75
 
     def test_divide_by_zero_raises(self):
         with pytest.raises(ValueError):
